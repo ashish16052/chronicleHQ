@@ -1,0 +1,41 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    padding-top: 2rem;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+
+    .brand {
+        display: flex;
+        align-items: center;
+        p{
+            font-size: 22px;
+        }
+        .logo {
+            height: 40px;
+            border-radius: 50%;
+        }
+    }
+
+    .btn {
+        transition: 0.5s;
+        background-color: white;
+        font-size: 18px;
+        padding: 0.815rem 1.232rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        line-height: 1;
+        border-radius: 0.7rem;
+        color: black;
+    }
+
+    .btn:hover {
+        transition: 0.5s;
+        background-color: #A594FD;
+    }
+}
