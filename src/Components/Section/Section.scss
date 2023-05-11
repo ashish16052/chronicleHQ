@@ -1,7 +1,7 @@
 .section-1 {
     margin: 0 111px;
     font-size: 3.5rem;
-    height: 250vh;
+    height: 200vh;
     padding: 5rem 52px;
     letter-spacing: -0.01em;
     line-height: 1;
@@ -11,4 +11,14 @@
         position: sticky;
         top: 100px;
     }
+}
+
+.section-2{
+    margin: 0 111px;
+    font-size: 3.5rem;
+    height: 200vh;
+    padding: 5rem 52px;
+    letter-spacing: -0.01em;
+    line-height: 1;
+    position: relative; 
 }

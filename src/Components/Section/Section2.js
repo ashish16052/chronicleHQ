@@ -1,8 +1,9 @@
 import React from 'react'
+import './Section.scss'
 
 const Section2 = () => {
   return (
-    <div>Section2</div>
+    <div className='section-2'>Section2</div>
   )
 }
 
