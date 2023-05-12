@@ -7,7 +7,7 @@ const Word = ({ word, i, l }) => {
     const scaleX = useSpring(scrollYProgress)
     const color = useTransform(
         scrollYProgress,
-        [0.4*i / l,  0.4*(i+1) / l],
+        [0.2*i / l,  0.2*(i+1) / l],
         ['#202020', '#ffffff'],
     )
     return (
@@ -15,7 +15,8 @@ const Word = ({ word, i, l }) => {
             key={i}
             style={{
                 color: color,
-                scaleX
+                scaleX,
+                transition: "color 0.4s ease-in-out"
             }
             }
         >

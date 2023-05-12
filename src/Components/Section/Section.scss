@@ -16,9 +16,16 @@
 .section-2{
     margin: 0 111px;
     font-size: 3.5rem;
-    height: 200vh;
-    padding: 5rem 52px;
+    height: 600vh;
+    padding: 5rem 20px;
     letter-spacing: -0.01em;
     line-height: 1;
     position: relative; 
+
+    .scroll-card {
+        position: sticky;
+        top: 80px;
+        display: flex;
+        justify-content: space-between;
+    }
 }

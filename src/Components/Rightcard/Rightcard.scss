@@ -1,0 +1,13 @@
+.right-card{
+    margin-left: 4rem;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+
+    .card{
+        border-radius:1.25rem;
+        background-color: #101010;
+        color: #adadad;
+        height: 75vh;
+    }
+}
